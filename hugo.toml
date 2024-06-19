@@ -1,4 +1,0 @@
-baseURL = 'https://hikimay.github.io/'
-languageCode = 'ja'
-title = 'My New Hugo Site'
-theme = 'gruvhugo'
