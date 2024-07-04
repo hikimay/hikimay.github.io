@@ -5,8 +5,8 @@ title: "Publications"
 
 ## Refereed Journal Papers and Conference Proceedings
 
-- Y. Hikima, A. Iwasaki and K. Umeno. **The reference distributions of Maurer’s universal statistical test and its improved tests.** IEEE Transactions on Information Theory 68.4 (2021): 2674-2683. [[doi](https://doi.org/10.1109/TIT.2021.3131691)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9631293)]
 - Y. Hikima, K. Murao, S. Takemori, and Y. Umeda. **Quantum Kernelized Bandits.** In The 40th Conference on Uncertainty in Artificial Intelligence (UAI), 2024. [[pdf](https://openreview.net/pdf?id=3GtCwa9nky)]
+- Y. Hikima, A. Iwasaki and K. Umeno. **The reference distributions of Maurer’s universal statistical test and its improved tests.** IEEE Transactions on Information Theory 68.4 (2021): 2674-2683. [[doi](https://doi.org/10.1109/TIT.2021.3131691)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9631293)]
 
 ## Preprints
 
