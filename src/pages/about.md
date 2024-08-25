@@ -7,10 +7,19 @@ title: "About"
 
 Resercher at Artificial Intelligence Laboratory, Fujitsu Limited, Japan.
 
+### Research Interests
+
+- Mathematical optimization, in particular,
+  - Contextual stochastic optimization
+  - Inverse optimization
+  - Online optimization and bandit optimization
+- Information theoretic cryptography
+- Quantum machine learning
+
 ### Work Experience
 
 - Resercher, Artificial Intelligence Laboratory, Fujitsu Limited, Japan <br> April 2021 -- present
-- Visiting Scientist, RIKEN Center for Advanced Intelligence Project <br> April 2021 -- March 2022
+- Visiting Scientist, RIKEN Center for Advanced Intelligence Project ([AIP](https://www.riken.jp/en/research/labs/aip/)) <br> April 2021 -- March 2022
 - Software Engineer, SoftBank Corp., Japan <br> April 2020 -- April 2021
 
 ### Education
