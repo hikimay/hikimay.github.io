@@ -5,7 +5,7 @@ title: "Publications"
 
 ### Refereed Journal Papers and Conference Proceedings
 
-- Y. Hikima, K. Murao, S. Takemori, and Y. Umeda. **Quantum Kernelized Bandits.** In The 40th Conference on Uncertainty in Artificial Intelligence ([UAI](https://www.auai.org/uai2024/)), 2024. (Alphabetical order) [[openreview](https://openreview.net/forum?id=3GtCwa9nky)] [[pdf](https://openreview.net/pdf?id=3GtCwa9nky)] [[poster](../../src/assets/pdfs/uai2024_poster.pdf)]
+- Y. Hikima, K. Murao, S. Takemori, and Y. Umeda. **Quantum Kernelized Bandits.** In The 40th Conference on Uncertainty in Artificial Intelligence ([UAI](https://www.auai.org/uai2024/)), 2024. (Alphabetical order) [[openreview](https://openreview.net/forum?id=3GtCwa9nky)] [[pdf](https://openreview.net/pdf?id=3GtCwa9nky)]
 - Y. Hikima, A. Iwasaki and K. Umeno. **The reference distributions of Maurer’s universal statistical test and its improved tests.** IEEE Transactions on Information Theory 68.4 (2021): 2674-2683. [[doi](https://doi.org/10.1109/TIT.2021.3131691)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9631293)]
 
 ### Preprints
@@ -21,7 +21,7 @@ title: "Publications"
 
 ### Domestic Talks
 
-- 引間泰成, 岩﨑淳, 梅野健. **Maurer's Test を基にした Highly Sensitive Universal Statistical Test における参照分布の分散の導出**, SCIS2020 暗号と情報セキュリティシンポジウム, ザ・クラウンパレス新阪急高知, 28-31 January 2020. [[pdf](../../src/assets/pdfs/scis_draft.pdf)] [[slide](../../src/assets/pdfs/scis_slide.pdf)]
+- 引間泰成, 岩﨑淳, 梅野健. **Maurer's Test を基にした Highly Sensitive Universal Statistical Test における参照分布の分散の導出**, SCIS2020 暗号と情報セキュリティシンポジウム, ザ・クラウンパレス新阪急高知, 28-31 January 2020. 
 - 引間泰成, 林俊介. 半無限計画問題に対する交換法の高速化, 東北ＯＲセミナー；若手研究交流会, 蔵王センタープラザ, 25-26 November 2017. (学生優秀発表賞受賞)
 
 <!-- 
