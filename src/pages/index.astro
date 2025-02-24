@@ -9,6 +9,7 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SITE, SOCIALS } from "@config";
+import { Code } from "astro:components";
 
 const posts = await getCollection("blog");
 
@@ -23,33 +24,28 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>{SITE.author}</h1>
-      <!-- <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-        <span class="sr-only">RSS Feed</span>
-      </a> -->
-      <ul>
-        <li>Reseacher at Artificial Intelligence Laboratory, Fujitsu Limited, Japan.</li>
-        <br>
-        <li>Email: hikima.yasunari[~at~]fujitsu.com</li>
-      </ul>
+      <div class="container">
+        <img
+          src="../../public/hikimay_icon.png"
+          alt="personal photo"
+          class="image"
+        />
+        <div class="text">
+          <h1>{SITE.author}</h1>
+          <ul>
+            <li>Reseacher</li>
+            <li>Artificial Intelligence Laboratory</li>
+            <li>Fujitsu Limited, Japan</li>
+            <br>
+            <li>Email: hikima.yasunari[~at~]fujitsu.com</li>
+          </ul>
+        </div>
+      </div>
       <br>
       <br>
-      <div style="text-align: right">
+      <div class="text" style="text-align: right">
         <!-- $ LC_TIME=C date -u -->
-        Last updated: Sun Aug 25 15:14:13 UTC 2024
+        Last updated: Mon Feb 24 14:21:28 UTC 2025
       </div>
       <!-- <p>
         Read the blog posts or check
@@ -131,11 +127,11 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <style>
   /* ===== Hero Section ===== */
   #hero {
-    @apply pb-6 pt-8;
+    @apply pb-6 pt-4;
   }
   #hero h1 {
     /* @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl; */
-    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-4xl;
+    @apply my-4 inline-block text-3xl font-bold sm:my-4 sm:text-3xl;
   }
   #hero .rss-link {
     @apply mb-6;
@@ -169,5 +165,27 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .image {
+    /* width: 10%;
+    max-width: 100px;
+    border-radius: 50%; */
+    flex-basis: 30%;
+    width: 20%;
+    height: auto;
+  }
+
+  .text {
+    flex-basis: 70%;
+    /* font-size: 1.0rem; */
+    width: 100%;
+    /* font-size: 14px; */
   }
 </style>
