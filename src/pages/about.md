@@ -5,16 +5,14 @@ title: "About"
 
 ### Affiliation
 
-Resercher at Artificial Intelligence Laboratory, Fujitsu Limited, Japan.
+Resercher at Artificial Intelligence Laboratory, Fujitsu Limited, Japan
 
 ### Research Interests
 
 - Mathematical optimization, in particular,
-  - Contextual stochastic optimization
   - Inverse optimization
-  - Online optimization and bandit optimization
+  - Online optimization and bandit algorithms
 - Information theoretic cryptography
-- Quantum machine learning
 
 ### Work Experience
 
