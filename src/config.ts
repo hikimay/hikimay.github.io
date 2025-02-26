@@ -6,7 +6,7 @@ export const SITE: Site = {
   authorJa: "引間 泰成",
   desc: "Yasunari Hikima's webpage",
   title: "Yasunari Hikima",
-  ogImage: "australia.jpg",
+  // ogImage: "australia.jpg",
   lightAndDarkMode: true,
   postPerPage: 7,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
