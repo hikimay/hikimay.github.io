@@ -20,7 +20,7 @@ title: "Publications"
 
 ### Preprints
 
-- [Yasunari Hikima](/) **Multi-point Feedback of Bandit Convex Optimization with Hard Constraints.** arXiv preprint, arXiv:2310.10946 (2023). [[preprint](https://arxiv.org/abs/2310.10946)]
+- [Yasunari Hikima](/). **Multi-point Feedback of Bandit Convex Optimization with Hard Constraints.** arXiv preprint, arXiv:2310.10946 (2023). [[preprint](https://arxiv.org/abs/2310.10946)]
 - Akiyoshi Sannai, [Yasunari Hikima](/), Ken Kobayashi, Akinori Tanaka and Naoki Hamada. **Bézier Flow: a Surface-wise Gradient Descent Method for Multi-objective Optimization.** arXiv preprint, arXiv:2205.11099 (2022). [[preprint](https://arxiv.org/abs/2205.11099)]
 
 <Hr />
