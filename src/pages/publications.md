@@ -5,10 +5,13 @@ title: "Publications"
 
 ### Refereed Journal Papers and Conference Proceedings
 
+- Akiyoshi Sannai, [Yasunari Hikima](/), Ken Kobayashi, Akinori Tanaka and Naoki Hamada. 
+**Bézier Flow: a Surface-wise Gradient Descent Method for Multi-objective Optimization.**
+Transactions on Machine Learning Research (in press)
 - [Yasunari Hikima](/), Ken Kobayashi, Akinori Tanaka, Akiyoshi Sannai and Naoki Hamada. 
 **Stochastic Gradient Descent for Bézier Simplex Representation of Pareto Set in Multi-Objective Optimization.** 
 *In the 28th International Conference on Artificial Intelligence and Statistics* ([AISTATS](https://aistats.org/aistats2025/)), 2025. 
-[[openreview](https://openreview.net/forum?id=vz7EADbj4t)]
+[[openreview](https://openreview.net/forum?id=vz7EADbj4t)] [[code](https://github.com/hikimay/sgd-bf)]
 - [Yasunari Hikima](/), Kazunori Murao, Sho Takemori and Yuhei Umeda. 
 **Quantum Kernelized Bandits.** 
 *In The 40th Conference on Uncertainty in Artificial Intelligence* ([UAI](https://www.auai.org/uai2024/)), 2024. (Alphabetical order) 
@@ -21,7 +24,6 @@ title: "Publications"
 ### Preprints
 
 - [Yasunari Hikima](/). **Multi-point Feedback of Bandit Convex Optimization with Hard Constraints.** arXiv preprint, arXiv:2310.10946 (2023). [[preprint](https://arxiv.org/abs/2310.10946)]
-- Akiyoshi Sannai, [Yasunari Hikima](/), Ken Kobayashi, Akinori Tanaka and Naoki Hamada. **Bézier Flow: a Surface-wise Gradient Descent Method for Multi-objective Optimization.** arXiv preprint, arXiv:2205.11099 (2022). [[preprint](https://arxiv.org/abs/2205.11099)]
 
 <Hr />
 
