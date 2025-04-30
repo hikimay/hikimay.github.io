@@ -5,25 +5,28 @@ title: "Publications"
 
 ### Refereed Journal Papers and Conference Proceedings
 
-- Akiyoshi Sannai, [Yasunari Hikima](/), Ken Kobayashi, Akinori Tanaka and Naoki Hamada. 
+- [Y.Hikima](/), N.Kamiyama.
+**An Inverse Optimization Approach to Contextual Inverse Optimization.**
+*In the 34th International Joint Conference on Artificial Intelligence* ([IJCAI](https://2025.ijcai.org/)), 2025. (in press)
+- A.Sannai, [Y.Hikima](/), K.Kobayashi, A.Tanaka and N.Hamada. 
 **Bézier Flow: a Surface-wise Gradient Descent Method for Multi-objective Optimization.**
-Transactions on Machine Learning Research (in press)
-- [Yasunari Hikima](/), Ken Kobayashi, Akinori Tanaka, Akiyoshi Sannai and Naoki Hamada. 
+*Transactions on Machine Learning Research* (in press)
+- [Y.Hikima](/), K.Kobayashi, A.Tanaka, A.Sannai and N.Hamada. 
 **Stochastic Gradient Descent for Bézier Simplex Representation of Pareto Set in Multi-Objective Optimization.** 
 *In the 28th International Conference on Artificial Intelligence and Statistics* ([AISTATS](https://aistats.org/aistats2025/)), 2025. 
 [[openreview](https://openreview.net/forum?id=vz7EADbj4t)] [[code](https://github.com/hikimay/sgd-bf)]
-- [Yasunari Hikima](/), Kazunori Murao, Sho Takemori and Yuhei Umeda. 
+- [Y.Hikima](/), K.Murao, S.Takemori and Y.Umeda. 
 **Quantum Kernelized Bandits.** 
 *In The 40th Conference on Uncertainty in Artificial Intelligence* ([UAI](https://www.auai.org/uai2024/)), 2024. (Alphabetical order) 
 [[openreview](https://openreview.net/forum?id=3GtCwa9nky)] [[pdf](https://openreview.net/pdf?id=3GtCwa9nky)]
-- [Yasunari Hikima](/), Atsushi Iwasaki and Ken Umeno. 
+- [Y.Hikima](/), A.Iwasaki and K.Umeno. 
 **The reference distributions of Maurer’s universal statistical test and its improved tests.** 
 *IEEE Transactions on Information Theory* 68.4 (2021): 2674-2683.
 [[doi](https://doi.org/10.1109/TIT.2021.3131691)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9631293)]
 
 ### Preprints
 
-- [Yasunari Hikima](/). **Multi-point Feedback of Bandit Convex Optimization with Hard Constraints.** arXiv preprint, arXiv:2310.10946 (2023). [[preprint](https://arxiv.org/abs/2310.10946)]
+- [Y.Hikima](/). **Multi-point Feedback of Bandit Convex Optimization with Hard Constraints.** arXiv preprint, arXiv:2310.10946 (2023). [[preprint](https://arxiv.org/abs/2310.10946)]
 
 <Hr />
 

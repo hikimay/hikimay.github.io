@@ -10,7 +10,9 @@ title: "About"
 
 ### Research Interests
 
-Although I originally belonged to the department of architecture, I developed an interest in mathematics that appears in engineering fields, which led me to shift my focus to mathematical optimization and information theory. Currently, I am primarily interested in the intersection of machine learning and mathematical optimization, with specific interests in 1) stochastic optimization and inverse optimization in the presence of contextual information, 2) hypersurface optimization methods for representing Pareto sets/fronts in multi-objective optimization problems, and 3) sequential decision-making under uncertainty and online learning.
+Although I originally belonged to the department of architecture, I developed an interest in mathematics that appears in engineering fields, which led me to shift my focus to mathematical optimization and information theory. 
+
+Currently, I am primarily interested in the intersection of machine learning and mathematical optimization, with specific interests in 1) stochastic optimization and inverse optimization in the presence of contextual information, 2) hypersurface optimization methods for representing Pareto sets/fronts in multi-objective optimization problems, and 3) sequential decision-making under uncertainty and online learning.
 
 ### Work Experience
 

@@ -6,7 +6,7 @@ export const SITE: Site = {
   authorJa: "引間 泰成",
   desc: "Yasunari Hikima's webpage",
   title: "Yasunari Hikima",
-  // ogImage: "australia.jpg",
+  // ogImage: "ogimage.jpg", // the image should be in the public folder
   lightAndDarkMode: true,
   postPerPage: 7,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
