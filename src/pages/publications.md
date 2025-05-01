@@ -18,7 +18,7 @@ title: "Publications"
 - [Y.Hikima](/), K.Murao, S.Takemori and Y.Umeda. 
 **Quantum Kernelized Bandits.** 
 *In The 40th Conference on Uncertainty in Artificial Intelligence* ([UAI](https://www.auai.org/uai2024/)), 2024. (Alphabetical order) 
-[[openreview](https://openreview.net/forum?id=3GtCwa9nky)] [[pdf](https://openreview.net/pdf?id=3GtCwa9nky)] [[poster](/public/assets/uai2024_poster.pdf)]
+[[openreview](https://openreview.net/forum?id=3GtCwa9nky)] [[pdf](https://openreview.net/pdf?id=3GtCwa9nky)] [[poster](/assets/uai2024_poster.pdf)]
 - [Y.Hikima](/), A.Iwasaki and K.Umeno. 
 **The reference distributions of Maurer’s universal statistical test and its improved tests.** 
 *IEEE Transactions on Information Theory* 68.4 (2021): 2674-2683.
