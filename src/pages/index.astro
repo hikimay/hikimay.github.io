@@ -41,84 +41,73 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           </ul>
         </div>
       </div>
-      <br>
+    </section>
+    <!-- <Hr /> -->
+
+    <section id="featured">
+      <div class="container">
+        <div class="text">
+          <h2>News</h2>
+          <ul class="myul">
+            <li>
+              <strong>April 29, 2025.</strong>
+              One paper accepted at <a href="https://2025.ijcai.org/">IJCAI 2025</a>. See you in Montreal, Canada.
+            </li>
+
+            <li>
+              <strong>May 3-5, 2025.</strong>
+              Atteinding the <a href="https://aistats.org/aistats2025/">AISTATS</a> Conference, Phuket, Thailand.
+            </li>
+
+            <li>
+              <strong>March 17-26, 2025.</strong>
+              I am visiting Stockholm, Sweden and Kjøbmandehavn, Denmark.
+            </li>
+
+            <li>
+              <strong>March 4, 2025.</strong>
+              One paper accepted at Transactions on Machine Learning Research (<a href="https://jmlr.org/tmlr/">TMLR</a>).
+            </li>
+            
+            <li>
+              <strong>January 21, 2025.</strong>
+              One paper accepted at <a href="https://aistats.org/aistats2025/">AISTATS 2025</a>.
+              See you in Phuket, Thailand.
+            </li>
+
+            <li>
+              <strong>November 4-7, 2024.</strong>
+              Atteinding the <a href="https://ibisml.org/ibis2024/">IBIS</a> Conference, Saitama, Japan.
+            </li>
+
+            <li>
+              <strong>October 27 - November 3, 2024.</strong>
+              I am visiting Perth, Australia.
+            </li>
+
+            <li>
+              <strong>July 15-19, 2024.</strong>
+              Atteinding the <a href="https://www.auai.org/uai2024/">UAI</a> Conference, Barcelona, Spain.
+            </li>
+
+            <li>
+              <strong>February 25-28, 2024.</strong>
+              I am visiting <a href="https://www.fujitsu.com/us/about/businesspolicy/tech/rd/">Fujitsu Reseach of America, Inc.</a> located in Santa Clara, California, USA.
+            </li>
+
+            <li>
+              <strong>February 25-28, 2024.</strong>
+              I am in UC San Diego, California, USA, attending the <a href="https://algorithmiclearningtheory.org/alt2024/">ALT</a> Conference.
+            </li>
+          </ul>
+        </div>
+      </div>
       <br>
       <div class="text" style="text-align: right">
         <!-- $ LC_TIME=C date -u -->
         Last updated: Wed Apr 30 16:30:45 UTC 2025
       </div>
-      <!-- <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p> -->
-      <!-- {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      } -->
     </section>
-
-    <!-- <Hr /> -->
-
-    <!-- {
-      featuredPosts.length > 0 && (
-        <>
-          <section id="featured">
-            <h2>Featured</h2>
-            <ul>
-              {featuredPosts.map(({ data, slug }) => (
-                <Card
-                  href={`/posts/${slug}/`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              ))}
-            </ul>
-          </section>
-          {recentPosts.length > 0 && <Hr />}
-        </>
-      )
-    } -->
-
-    <!-- {
-      recentPosts.length > 0 && (
-        <section id="recent-posts">
-          <h2>Recent Posts</h2>
-          <ul>
-            {recentPosts.map(
-              ({ data, slug }, index) =>
-                index < 3 && (
-                  <Card
-                    href={`/posts/${slug}/`}
-                    frontmatter={data}
-                    secHeading={false}
-                  />
-                )
-            )}
-          </ul>
-        </section>
-      )
-    } -->
-
-    <!-- <div class="all-posts-btn-wrapper">
-      <LinkButton href="/posts/">
-        All Posts
-        <svg xmlns="http://www.w3.org/2000/svg"
-          ><path
-            d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
-          ></path>
-        </svg>
-      </LinkButton>
-    </div> -->
   </main>
 
   <Footer />
@@ -164,7 +153,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply text-2xl font-semibold tracking-wide;
   }
   .all-posts-btn-wrapper {
-    @apply my-8 text-center;
+    @apply my-3 text-center;
   }
 
   .container {
@@ -183,9 +172,23 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
 
   .text {
-    flex-basis: 70%;
-    /* font-size: 1.0rem; */
+    flex-basis: 100%;
+    font-size: 1.0rem;
     width: 100%;
     /* font-size: 14px; */
   }
+
+  .myul {
+    list-style-type: disc;
+    margin-top: 10px;
+    padding-inline-start: 40px;
+    list-style-position: inside;
+    text-indent: -2em;
+  }
+
+  a {
+    color: #4682b4;
+    text-decoration: none;
+  }
+
 </style>
