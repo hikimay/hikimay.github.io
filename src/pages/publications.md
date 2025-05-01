@@ -10,7 +10,7 @@ title: "Publications"
 *In the 34th International Joint Conference on Artificial Intelligence* ([IJCAI](https://2025.ijcai.org/)), 2025. (in press)
 - A.Sannai, [Y.Hikima](/), K.Kobayashi, A.Tanaka and N.Hamada. 
 **Bézier Flow: a Surface-wise Gradient Descent Method for Multi-objective Optimization.**
-*Transactions on Machine Learning Research* (in press)
+*Transactions on Machine Learning Research* [[pdf](https://openreview.net/pdf?id=I1gALvbRxj)] [[code](https://github.com/hikimay/bezier-flow)]
 - [Y.Hikima](/), K.Kobayashi, A.Tanaka, A.Sannai and N.Hamada. 
 **Stochastic Gradient Descent for Bézier Simplex Representation of Pareto Set in Multi-Objective Optimization.** 
 *In the 28th International Conference on Artificial Intelligence and Statistics* ([AISTATS](https://aistats.org/aistats2025/)), 2025. 
