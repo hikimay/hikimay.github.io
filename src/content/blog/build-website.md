@@ -11,4 +11,4 @@ tags:
 description: Builing a website.
 ---
 
-Build a website with [astro](https://astro.build/).
+I set up the website with [astro](https://astro.build/), using the [astropaper](https://astro.build/themes/details/astropaper/) theme.
