@@ -5,29 +5,29 @@ title: "Publications"
 
 ### Refereed Journal Papers and Conference Proceedings
 
-- [Y.Hikima](/), N.Kamiyama.
-**An Inverse Optimization Approach to Contextual Inverse Optimization.**
+- [Y.Hikima](/) and N.Kamiyama.
+**An Inverse Optimization Approach to Contextual Inverse Optimization**.
 *In the 34th International Joint Conference on Artificial Intelligence* ([IJCAI](https://2025.ijcai.org/)), 2025. (in press)
 - A.Sannai, [Y.Hikima](/), K.Kobayashi, A.Tanaka and N.Hamada. 
-**Bézier Flow: a Surface-wise Gradient Descent Method for Multi-objective Optimization.**
+**Bézier Flow: a Surface-wise Gradient Descent Method for Multi-objective Optimization**.
 *Transactions on Machine Learning Research* <br>
 [[pdf](https://openreview.net/pdf?id=I1gALvbRxj)] [[openreview](https://openreview.net/forum?id=I1gALvbRxj)] [[code](https://github.com/hikimay/bezier-flow)]
 - [Y.Hikima](/), K.Kobayashi, A.Tanaka, A.Sannai and N.Hamada. 
-**Stochastic Gradient Descent for Bézier Simplex Representation of Pareto Set in Multi-Objective Optimization.** 
+**Stochastic Gradient Descent for Bézier Simplex Representation of Pareto Set in Multi-Objective Optimization**. 
 *In the 28th International Conference on Artificial Intelligence and Statistics* ([AISTATS](https://aistats.org/aistats2025/)), 2025. <br>
 [[pdf](https://proceedings.mlr.press/v258/hikima25a.html)] [[openreview](https://openreview.net/forum?id=vz7EADbj4t)] [[code](https://github.com/hikimay/sgd-bf)] [[poster](/assets/posters/aistats-2025_poster.pdf)]
 - [Y.Hikima](/), K.Murao, S.Takemori and Y.Umeda. 
-**Quantum Kernelized Bandits.** 
+**Quantum Kernelized Bandits**. 
 *In The 40th Conference on Uncertainty in Artificial Intelligence* ([UAI](https://www.auai.org/uai2024/)), 2024. (Alphabetical order) <br>
 [[openreview](https://openreview.net/forum?id=3GtCwa9nky)] [[pdf](https://openreview.net/pdf?id=3GtCwa9nky)] [[poster](/assets/posters/uai-2024_poster.pdf)]
 - [Y.Hikima](/), A.Iwasaki and K.Umeno. 
-**The reference distributions of Maurer’s universal statistical test and its improved tests.** 
+**The reference distributions of Maurer’s universal statistical test and its improved tests**. 
 *IEEE Transactions on Information Theory* 68.4 (2021): 2674-2683. <br>
-[[doi](https://doi.org/10.1109/TIT.2021.3131691)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9631293)]
+[[doi](https://doi.org/10.1109/TIT.2021.3131691)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9631293)] [[arXiv](https://arxiv.org/abs/2103.10660)]
 
 ### Preprints
 
-- [Y.Hikima](/). **Multi-point Feedback of Bandit Convex Optimization with Hard Constraints.** arXiv preprint, arXiv:2310.10946 (2023). [[preprint](https://arxiv.org/abs/2310.10946)]
+- [Y.Hikima](/). **Multi-point Feedback of Bandit Convex Optimization with Hard Constraints**. arXiv preprint, arXiv:2310.10946 (2023). [[preprint](https://arxiv.org/abs/2310.10946)]
 
 <Hr />
 
