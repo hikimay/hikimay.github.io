@@ -7,7 +7,7 @@ title: "Publications"
 
 - [Y.Hikima](/) and N.Kamiyama.
 **An Inverse Optimization Approach to Contextual Inverse Optimization**.
-*In the 34th International Joint Conference on Artificial Intelligence* ([IJCAI](https://2025.ijcai.org/)), 2025. (in press)
+*In the 34th International Joint Conference on Artificial Intelligence* ([IJCAI](https://2025.ijcai.org/)), 2025. [[pdf](https://www.ijcai.org/proceedings/2025/0596.pdf)]
 - A.Sannai, [Y.Hikima](/), K.Kobayashi, A.Tanaka and N.Hamada. 
 **Bézier Flow: a Surface-wise Gradient Descent Method for Multi-objective Optimization**.
 *Transactions on Machine Learning Research* <br>
