@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://hikimay.github.io/", // replace this with your deployed domain
   author: "Yasunari Hikima",
-  authorJa: "引間 泰成",
+  authorJa: "引間　泰成",
   desc: "Yasunari Hikima's webpage",
   title: "Yasunari Hikima",
   // ogImage: "ogimage.jpg", // the image should be in the public folder
