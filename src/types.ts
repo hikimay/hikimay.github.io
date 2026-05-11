@@ -4,6 +4,7 @@ export type Site = {
   website: string;
   author: string;
   authorJa: string;
+  authorJaHiragana?: string;
   desc: string;
   title: string;
   ogImage?: string;
