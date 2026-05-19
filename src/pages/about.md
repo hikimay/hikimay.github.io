@@ -5,9 +5,9 @@ title: "About"
 
 ### Affiliation
 
-- Senior Researcher at [Artificial Intelligence Laboratory](https://www.fujitsu.com/global/about/research/)
+- Researcher at [Artificial Intelligence Laboratory](https://www.fujitsu.com/global/about/research/),
 <br> [Fujitsu Limited](https://global.fujitsu/en-global), Japan
-- Ph.D. student at the Graduate School of Mathematics, [Kyushu University](https://www.kyushu-u.ac.jp/en/)
+- Ph.D. student at the Graduate School of Mathematics, [Kyushu University](https://www.kyushu-u.ac.jp/en/),
 <br> Fukuoka, Japan
 
 ### Research Interests

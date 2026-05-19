@@ -8,7 +8,8 @@ featured: false
 draft: false
 tags:
     - website
+    - astro
 description: Builing a website.
 ---
 
-I set up the website with [astro](https://astro.build/), using the [astropaper](https://astro.build/themes/details/astropaper/) theme.
+I set up the website with [Astro](https://astro.build/) framework, using the [astropaper](https://astro.build/themes/details/astropaper/) theme.

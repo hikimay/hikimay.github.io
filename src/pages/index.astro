@@ -26,7 +26,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     <section id="hero">
       <div class="container">
         <img
-          src="/hikimay_icon.png"
+          id="profileImage"
+          src="/hikimay_icon_2026.png"
           alt="personal photo"
           class="image"
         />
@@ -34,9 +35,14 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           <h1>{SITE.author}<br>{SITE.authorJa}（{SITE.authorJaHiragana}）</h1>
           <ul>
             <li>Reseacher</li>
+            <li>Artificial Intelligence Laboratory</li>
             <li>Fujitsu Limited, Japan</li>
             <br>
             <li>Email: hikima.yasunari[~at~]fujitsu.com</li>
+            <li>
+              ⚠️<font color="#c9302c">Notice: </font>
+              <i>Due to personal circumstances, I will be unavailable until June 30, 2026.</i>
+            </li>
           </ul>
         </div>
       </div>
@@ -45,7 +51,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     <section id="featured">
       <div class="container">
         <div class="text">
-          <h2>News</h2>
+          <h2>Recent News</h2>
           <ul class="myul">
             <li>
               <strong>May 3, 2026.</strong>
@@ -61,7 +67,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             
             <li>
               <strong>February 21, 2026.</strong>
-              My collaborator will present on our recent work at <a href="https://kagawa-regional-science.github.io/">Regional Science Seminar</a>, Kagawa University, Japan.
+              My collaborator, <a href="https://takala4.github.io/cv/index_en.html">T. Sakai</a> (Institute of Science Tokyo), will present on our recent work at <a href="https://kagawa-regional-science.github.io/">Regional Science Seminar</a>, Kagawa University, Japan.
             </li>
             
             <li>
@@ -86,7 +92,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
               Our poster presentation is assigned in Poster Session 3 held from 13:00 to 16:00.
             </li>
 
-            <li>
+            <!--  <li>
               <strong>April 29, 2025.</strong>
               One paper accepted at <a href="https://2025.ijcai.org/">IJCAI 2025</a>. See you in Montreal, Canada.
             </li>
@@ -136,18 +142,57 @@ const socialCount = SOCIALS.filter(social => social.active).length;
               <strong>February 25—28, 2024.</strong>
               I am in UC San Diego, California, USA, attending the <a href="https://algorithmiclearningtheory.org/alt2024/">ALT</a> Conference.
             </li>
-          </ul>
+          </ul> -->
+
+          <div class="all-posts-btn-wrapper">
+            <LinkButton href="/news">
+              All News
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M13 18l6 -6" /><path d="M13 6l6 6" /></svg>
+            </LinkButton>
+          </div>
         </div>
       </div>
       <br>
       <div class="text" style="text-align: right">
         <!-- $ LC_TIME=C date -u -->
-        Last updated: Wed Apr 8 16:58:57 UTC 2026
+        Last updated: Tue May 19 08:46:19 UTC 2026
       </div>
     </section>
   </main>
-
   <Footer />
+
+  <!-- randomly change the profile image on each page load -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const image = document.querySelector<HTMLImageElement>("#profileImage");
+
+      if (!image) return;
+
+      // const images = [
+      //   "/hikimay_icon_2026.png",
+      //   "/hikimay_icon_2025.png",
+      // ];
+      // const randomIndex = Math.floor(Math.random() * images.length);
+      // image.src = images[randomIndex];
+
+      const images = [
+        { src: "/hikimay_icon_2026.png", alt: "personal photo (2026)", probability: 0.75 },
+        { src: "/hikimay_icon_2025.png", alt: "personal photo (2025)", probability: 0.25 },
+      ]
+
+      const randomValue = Math.random();
+      let cumulativeProbability = 0;
+
+      for (const { src, alt, probability } of images) {
+        cumulativeProbability += probability;
+        if (randomValue < cumulativeProbability) {
+          image.src = src;
+          image.alt = alt;
+          break;
+        }
+      }
+    });
+  </script>
 </Layout>
 
 <style>
@@ -173,6 +218,17 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   .social-links {
     @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
+  }
+
+  /* Align the content to the top of the hero section */
+  #hero .container {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  #hero .image {
+    height: auto;
+    margin-top: 20px;
   }
 
   /* ===== ul ===== */
@@ -223,9 +279,31 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     text-indent: -2em;
   }
 
-  a {
+  .myul li {
+    margin-bottom: 0.75rem;
+  }
+
+  /* a {
     color: #4682b4;
     text-decoration: none;
+  } */
+   a {
+    color: #4682b4;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1.0px;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+  }
+
+  a:hover {
+    color: #1d4ed8;
+    text-decoration-color: #1d4ed8;
+  }
+
+  a:focus-visible {
+    outline: 2px solid #93c5fd;
+    outline-offset: 3px;
+    border-radius: 3px;
   }
 
 </style>

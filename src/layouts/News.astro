@@ -1,0 +1,75 @@
+---
+import { SITE } from "@config";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import Footer from "@components/Footer.astro";
+import Layout from "./Layout.astro";
+
+export interface Props {
+  frontmatter: {
+    title: string;
+    description?: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={`${frontmatter.title} | ${SITE.title}`}>
+  <Breadcrumbs />
+  <main id="main-content">
+    <section id="news-section" class="prose mb-28 max-w-3xl prose-img:border-0">
+      <div class="container"></div>
+        <div class="text">
+          <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
+          <!-- <slot /> -->
+          <div class="markdown-news-content">
+            <slot />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style is:global>
+  #news-section {
+    @apply pb-6 pt-12;
+  }
+  #news-section h2 {
+    @apply text-2xl font-semibold tracking-wide mb-6;
+  }
+
+  /* セレクタの先頭に #news-section を追加して優先順位を上げる */
+  #news-section .markdown-news-content a {
+    color: #4682b4 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1.0px;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+  }
+
+  #news-section .markdown-news-content a:hover {
+    color: #1d4ed8 !important;
+    text-decoration-color: #1d4ed8 !important;
+  }
+
+  #news-section .markdown-news-content a:focus-visible {
+    outline: 2px solid #93c5fd;
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+
+  /* リスト(ul)のスタイルも優先順位を上げる */
+  #news-section .markdown-news-content ul {
+    list-style-type: disc !important;
+    margin-top: 10px;
+    padding-inline-start: 40px !important;
+    list-style-position: inside;
+    text-indent: -2em;
+  }
+
+  #news-section .markdown-news-content li {
+    margin-bottom: 0.75rem;
+  }
+</style>
