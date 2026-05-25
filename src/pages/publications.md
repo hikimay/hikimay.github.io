@@ -5,6 +5,9 @@ title: "Publications"
 
 ### Refereed Journal Papers and Conference Proceedings
 
+- [Y.Hikima](/), N.Kamiyama, S.Sakaue, and T.Tsuchiya.
+**A Sampling-Based Relaxation Approach to Contextual Inverse Optimization**.
+*In the 35th International Joint Conference on Artificial Intelligence*  (in press)
 - [Y.Hikima](/) and N.Kamiyama.
 **An Inverse Optimization Approach to Contextual Inverse Optimization**.
 *In the 34th International Joint Conference on Artificial Intelligence* ([IJCAI](https://2025.ijcai.org/)), 2025. [[pdf](https://www.ijcai.org/proceedings/2025/0596.pdf)]

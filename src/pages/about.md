@@ -22,6 +22,10 @@ Currently, I am primarily interested in the intersection of machine learning and
 
 ### Education
 
-- Ph.D. student, Department of Mathematics, Graduate School of Mathematics, Kyushu University, Japan <br> April 2024 -- Present
-- Master of Informatics, Department of Applied Mathematics and Physics, Graduate School of Informatics, Kyoto University, Japan <br> April 2018 -- March 2020
-- Bachelor of Engineering, Department of Civil Engineering and Architecture, Faculty of Engineering, Tohoku University, Japan <br> April 2014 -- March 2018
+- Ph.D. student, Department of Mathematics, Graduate School of Mathematics, Kyushu University, Japan.<br>
+  Superviser: Prof. [Naoyuki Kamiyama](https://nkamiyama.github.io/website/) (Kyoto University)<br>
+  April 2024 -- Present
+- Master of Informatics, Department of Applied Mathematics and Physics, Graduate School of Informatics, Kyoto University, Japan.<br>
+  April 2018 -- March 2020
+- Bachelor of Engineering, Department of Civil Engineering and Architecture, Faculty of Engineering, Tohoku University, Japan.<br>
+  April 2014 -- March 2018

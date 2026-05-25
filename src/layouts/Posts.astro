@@ -5,7 +5,7 @@ import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Pagination from "@components/Pagination.astro";
-import Card from "@components/Card";
+import Card from "@components/CardPosts";
 import { SITE } from "@config";
 
 export interface Props {
@@ -19,8 +19,13 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
 
 <Layout title={`Posts | ${SITE.title}`}>
   <Header activeNav="posts" />
-  <!-- <Main pageTitle="Posts" pageDesc="All the articles I've posted."> -->
+  <!-- <Main pageTitle="Posts" pageDesc="All the articles I've posted. Notice that some of the articles are in Japanese."> -->
   <Main pageTitle="Posts" pageDesc="">
+    <p class="mb-8 text-sm italic leading-relaxed text-stone-500 dark:text-stone-400">
+      This page is dedicated to personal diaries and technical articles.
+      While every effort is made to ensure the content is correct and up-to-date, it is provided without any warranties regarding its accuracy or completeness.
+      Notice that some posts are written in Japanese.
+    </p>
     <ul>
       {
         paginatedPosts.map(({ data, slug }) => (
@@ -28,6 +33,7 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
         ))
       }
     </ul>
+  </Main>
   </Main>
 
   <Pagination
