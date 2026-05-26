@@ -133,3 +133,51 @@
     @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
   }
 }
+
+/* =========================================
+   KaTeX (数式) のスタイリング
+   ========================================= */
+
+/* 1. 標準（ライトモード時）は親要素のテキストカラーを引き継ぐ */
+.katex,
+.katex * {
+  color: inherit;
+  border-color: currentColor;
+}
+
+/* 2. ダークモード時の強制上書き（Tailwind標準の .dark クラス） */
+html.dark .katex,
+html.dark .katex *,
+.dark .prose .katex,
+.dark .prose .katex * {
+  color: #e5e7eb !important; /* Tailwindの gray-200 に相当する見やすい白系カラー */
+  border-color: #e5e7eb !important;
+}
+
+/* 3. ダークモード時の強制上書き（AstroPaperなどの data-theme 属性を使うテンプレート用） */
+html[data-theme='dark'] .katex,
+html[data-theme='dark'] .katex * {
+  color: #e5e7eb !important;
+  border-color: #e5e7eb !important;
+}
+
+/* =========================================
+   ブロック数式の枠囲みデザイン
+   ========================================= */
+
+/* ライトモード時のデザイン */
+.katex-display {
+  border: 1px solid #d1d5db; /* 枠線の色（薄いグレー） */
+  padding: 1rem 0.5rem;      /* 内側の余白 */
+  border-radius: 0.5rem;     /* 角の丸み */
+  background-color: #f9fafb; /* 薄い背景色 */
+  overflow-x: auto;          /* 横に長い数式はスクロールさせる */
+  margin: 1.5em 0;           /* 上下の余白 */
+}
+
+/* ダークモード時のデザイン */
+html.dark .katex-display,
+html[data-theme='dark'] .katex-display {
+  border-color: #374151;     /* 枠線の色（濃いグレー） */
+  background-color: #1f2937; /* ダークな背景色 */
+}

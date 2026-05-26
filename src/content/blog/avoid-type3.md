@@ -3,7 +3,7 @@ author: Yasunari Hikima
 pubDatetime: 2026-05-25T01:29:11
 modDatetime: 2026-05-25T01:29:11
 title: Avoiding Type 3 fonts
-slug: avoid-type3
+id: avoid-type3
 featured: false
 draft: false
 tags:
