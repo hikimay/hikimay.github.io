@@ -1,7 +1,7 @@
 ---
 author: Yasunari Hikima
-pubDatetime: 2026-05-26T01:29:11
-modDatetime: 2026-05-26T01:29:11
+pubDatetime: 2026-05-25T01:29:11
+modDatetime: 2026-05-25T01:29:11
 title: Avoiding Type 3 fonts
 slug: avoid-type3
 featured: false
