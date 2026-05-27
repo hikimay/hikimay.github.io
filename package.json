@@ -67,6 +67,9 @@
     ]
   },
   "overrides": {
+    "@astrojs/tailwind": {
+      "astro": "$astro"
+    },
     "minimist": "^1.2.8",
     "undici": "^6.24.0",
     "tmp": "^0.2.4",
